@@ -1,0 +1,38 @@
+
+  header {
+  width: 100%;
+}
+
+.logotipo {
+  font-family: 'Jost', sans-serif;
+}
+
+.game {
+  width: 24%;
+  min-width: 300px;
+}
+
+.image {
+  width: calc(100% + .45rem);
+
+  margin: 0 !important;
+} 
+
+.details {
+  width: 100%;
+  background-color: #712FFF20;
+  
+  border: 1px solid;
+  border-image: linear-gradient(180deg,#ffffff00,#ffffff20) 10;
+
+  padding: .3rem .15rem;
+}
+
+.details > .text-right > del {
+  color: #ffffff50
+
+}
+
+.w-100 {
+  width: 100%;
+}

@@ -1,0 +1,82 @@
+header {
+  width: 100%;
+  padding: 0;
+}
+
+.logotipo {
+  font-family: 'Jost', sans-serif;
+}
+
+
+@keyframes animacao {
+  0% {opacity: 0;}
+  100% {opacity: 1}
+}
+
+#login, #registration {
+  display: none;
+  opacity: 0;
+
+  animation-name: animacao;
+  animation-delay: initial;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.alertPass, #btnRegistrationOn {
+  display: none;
+}
+
+#player-animation {
+  width: 400px; 
+  height: 400px;
+}
+
+@media (max-width: 400px) {
+  .button, button{
+    padding: .5rem 0 !important;
+    width: calc(100% + .6rem);
+  }
+
+  #player-animation {
+    width: 80%; 
+    height: 80%;
+  }
+}
+
+/*        
+@keyframes ani-alert {
+  0% {opacity: 0;
+    right: 10%}
+  10% {opacity: 1;
+    right: 2%}
+  90% {opacity: 1;
+    right: 2%}
+  100% {opacity: 0;
+    right: 10%;}
+}
+
+.alert {
+  display: none;
+
+  width: 18%;
+  min-width: 300px;
+  padding: 1%;
+
+  background-color: rgba(255, 255, 255, 0.025);
+  border: 1px solid #712FFF59;
+  border-radius: .5rem;
+
+  position: absolute;
+  bottom: 2%;
+  right: 2%;
+
+  animation-name: ani-alert;
+  animation-duration: 5s;
+  animation-delay: initial;
+  animation-fill-mode: forwards;
+}
+.icon {
+  width: 12px;
+} 
+*/
